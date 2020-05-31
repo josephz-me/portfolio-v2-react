@@ -1,0 +1,81 @@
+@import "../../styles/vars_module.scss";
+
+.cards__card {
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  p {
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  img {
+    position: relative;
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+    overflow: hidden;
+  }
+}
+
+.cards__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  p {
+    margin: 0 0 8px 0;
+  }
+
+  p:last-child {
+    justify-self: end;
+  }
+}
+
+.cards__card:hover {
+  transform: rotate(1deg);
+
+  img {
+    opacity: 0.9;
+  }
+  p {
+    color: $font-accent;
+  }
+
+  p:first-child {
+    transform: translateX(+30px);
+  }
+
+  p:last-child {
+    transform: translateX(-30px);
+  }
+}
+
+.cards__card:active img {
+  opacity: 0.95;
+}
+
+// .cards__card p {
+//   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+// }
+
+@media only screen and (max-width: 700px) {
+  // .cards__card:hover p:first-child {
+  //   transform: translateX(+30px);
+  // }
+
+  // .cards__card:hover p:last-child {
+  //   transform: translateX(-30px);
+  // }
+
+  .cards__card img {
+    height: 50vw;
+  }
+
+  .cards__card:hover {
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .cards__card p {
+    font-size: 16px;
+  }
+}

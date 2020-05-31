@@ -1,0 +1,15 @@
+@import "../../styles/vars_module.scss";
+
+.wrapper {
+  width: 95%;
+  margin: 65px auto 0 auto;
+}
+
+.navBackdrop {
+  background: $background-color;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 45.5px;
+  z-index: 50;
+}
