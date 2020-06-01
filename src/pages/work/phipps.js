@@ -3,6 +3,7 @@ import React from "react";
 
 import styles from "./work.module.scss";
 import Spacer from "../../components/Spacer.js";
+import SpacerRight from "../../components/SpacerRight.js";
 import Divider from "../../components/Divider.js";
 import Iframe from "react-iframe";
 
@@ -172,7 +173,7 @@ export default function Thinkspace() {
             the way information is displayed. With time as a primary factor, I
             built physical mockups of information cards.
           </p>
-          <Spacer />
+          <SpacerRight />
           <video
             src="/static/work/phipps/prototyping_physical.mp4"
             muted
@@ -181,7 +182,7 @@ export default function Thinkspace() {
             playsInline
             webkit-playsinline="true"
           ></video>
-          <Spacer />
+          <SpacerRight />
 
           <em>VR Prototyping: Terrain Projection</em>
           <p>
@@ -190,7 +191,7 @@ export default function Thinkspace() {
             to design a one-to-one model, giving me a more realistic
             understanding of what it might be like in world space.
           </p>
-          <Spacer />
+          <SpacerRight />
           <video
             src="/static/work/phipps/prototype_gravitySketchVideo.mp4"
             muted
@@ -199,7 +200,7 @@ export default function Thinkspace() {
             playsInline
             webkit-playsinline="true"
           ></video>
-          <Spacer />
+          <SpacerRight />
           <em>AR Prototyping: Terrain Projection</em>
           <p>
             Designing in VR proved to be extremely valuable in many regards, but
@@ -207,7 +208,7 @@ export default function Thinkspace() {
             of the headset into Xcode's Reality Composer so that I could
             prototype interactively with AR. Below are a few iterations.
           </p>
-          <Spacer />
+          <SpacerRight />
           <video
             src="/static/work/phipps/prototype_rcV1.mp4"
             muted
@@ -233,7 +234,6 @@ export default function Thinkspace() {
           At the end of this process, I developed this speculative concept video
           that visualizes how an individual might engage with this interaction.
         </p>
-        <Spacer />
         <div className={styles.iFrameBig}>
           <Iframe
             url="https://player.vimeo.com/video/378143894"

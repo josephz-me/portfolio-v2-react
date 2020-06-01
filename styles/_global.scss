@@ -17,6 +17,9 @@ body {
   font-size: 24px;
   color: $font-black;
   background: $background-color;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
 }
 
 * {
@@ -26,10 +29,15 @@ body {
 a {
   color: $font-black;
   text-decoration: none;
+  outline: 0;
 }
 
 a:hover {
   color: $font-accent;
+}
+
+a:focus {
+  outline: 0;
 }
 
 @media only screen and (max-width: 450px) {

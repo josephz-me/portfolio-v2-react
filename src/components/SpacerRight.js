@@ -19,7 +19,7 @@ export default function Spacer() {
 
         @media only screen and (max-width: 700px) {
           div {
-            padding: 0;
+            padding: 8px 0;
             grid-column: 1 /7;
           }
         }
