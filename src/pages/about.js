@@ -17,7 +17,7 @@ export default function Home() {
         </div>
         <div className={styles.right}>
           <p>
-            I'm a interaction designer exploring various applications of
+            I'm an interaction designer exploring various applications of
             multimodal interfaces. Currently, I'm an undergraduate at Carnegie
             Mellon pursuing a{" "}
             <a
