@@ -114,7 +114,7 @@ export default function Thinkspace() {
           </p>
         </div>
         <Spacer />
-        <img src="/static/work/phipps/final_actionTrophies.jpg"></img>
+        <img src="/static/work/phipps/final_actionTrophies.png"></img>
         <Divider />
         <h4 className={styles.left}>Information Cards —</h4>
 
@@ -127,7 +127,7 @@ export default function Thinkspace() {
         </p>
 
         <Spacer />
-        <img src="/static/work/phipps/final_digitalSigns.jpg"></img>
+        <img src="/static/work/phipps/final_digitalSigns.png"></img>
         <Divider />
         <h4 className={styles.left}>Stakeholders —</h4>
         <div className={styles.right}>
