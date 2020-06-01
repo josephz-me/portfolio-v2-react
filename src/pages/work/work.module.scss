@@ -171,6 +171,31 @@
   }
 }
 
+@media only screen and (max-width: 450px) {
+  .project {
+    margin: 40px 0;
+
+    p,
+    a,
+    em,
+    u {
+      font-size: $mobile-body-font-size;
+      line-height: 1rem;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    h4 {
+      font-size: 18px;
+    }
+  }
+}
 // p:nth-child(2) {
 //   grid-column: 4;
 //   background: yellow;

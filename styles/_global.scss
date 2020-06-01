@@ -31,3 +31,10 @@ a {
 a:hover {
   color: $font-accent;
 }
+
+@media only screen and (max-width: 450px) {
+  html,
+  body {
+    font-size: 18px;
+  }
+}

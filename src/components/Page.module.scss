@@ -13,3 +13,9 @@
   height: 45.5px;
   z-index: 50;
 }
+
+@media only screen and (max-width: 450px) {
+  .navBackdrop {
+    height: 39px;
+  }
+}
