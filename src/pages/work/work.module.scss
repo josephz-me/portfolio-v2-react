@@ -59,22 +59,22 @@
 
   a {
     color: $font-black;
-    text-decoration: none;
+    text-decoration: underline;
     margin: 0;
     font-weight: 400;
     font-size: $body-font-size;
     line-height: 1.1rem;
     letter-spacing: 0rem;
-    border-bottom: 1.5px solid $font-black;
+    // border-bottom: 1.5px solid $font-black;
   }
 
   a:hover {
     color: $font-accent;
-    border-bottom: 1.5px solid $font-accent;
+    // border-bottom: 1.5px solid $font-accent;
   }
 
   u {
-    border-bottom: 1.5px solid $font-black;
+    // border-bottom: 1.5px solid $font-black;
     text-decoration: none;
   }
 
