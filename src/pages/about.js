@@ -22,7 +22,7 @@ export default function Home() {
             Mellon pursuing a{" "}
             <a
               target="blank"
-              href="https://www.youtube.com/watch?v=l3yHLikvjPU"
+              href="https://www.design.cmu.edu/content/bachelor-design"
             >
               Bachelor of Design
             </a>{" "}
