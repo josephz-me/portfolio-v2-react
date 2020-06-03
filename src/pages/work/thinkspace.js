@@ -177,7 +177,7 @@ export default function Thinkspace() {
         <div className={styles.right}>
           <p>
             I used the javascript library p5.js and its{" "}
-            <a href="https://github.com/IDMNYU/p5.js-speech">
+            <a target="blank" href="https://github.com/IDMNYU/p5.js-speech">
               speech recognition library
             </a>{" "}
             to map voice-input to the visual particle system. Below is a link to
@@ -186,7 +186,9 @@ export default function Thinkspace() {
             tutorials.
           </p>
           <br />
-          <img src="/static/work/thinkspace/thinkspaceShadow.png"></img>
+          <a target="blank" href="https://josephz-me.github.io/thinkspace/">
+            <img src="/static/work/thinkspace/thinkspaceShadow.png"></img>
+          </a>
         </div>
 
         <Divider />

@@ -68,6 +68,14 @@
     // border-bottom: 1.5px solid $font-black;
   }
 
+  a img:hover {
+    opacity: 0.7;
+  }
+
+  a img:active {
+    opacity: 0.9;
+  }
+
   a:hover {
     color: $font-accent;
     // border-bottom: 1.5px solid $font-accent;
