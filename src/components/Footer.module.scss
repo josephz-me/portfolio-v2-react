@@ -27,3 +27,24 @@
     transform: rotate(-5deg);
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .footer {
+    a:hover {
+      color: $font-black;
+      // border-bottom: 1.5px solid $font-accent;
+    }
+
+    a:focus {
+      color: $font-black;
+    }
+
+    span:hover {
+      transform: rotate(0deg);
+    }
+
+    span:focus {
+      transform: rotate(-5deg);
+    }
+  }
+}
