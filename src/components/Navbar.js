@@ -11,11 +11,11 @@ export default function Footer() {
         </Link>
       </span>
       <div className={styles.navbar__right}>
-        {/* <Link href="/">
-          <a>Photo</a>
-        </Link> */}
         <Link href="/about">
           <a>About</a>
+        </Link>
+        <Link target="blank" href="/static/resume-zhang.pdf">
+          <a>Resume</a>
         </Link>
       </div>
     </nav>
