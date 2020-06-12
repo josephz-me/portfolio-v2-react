@@ -1,6 +1,20 @@
 import React from "react";
-import styles from "./Navbar.module.scss";
 import Link from "next/link";
+import styles from "./Navbar.module.scss";
+import Router from "next/router";
+import NProgress from "nprogress";
+
+Router.onRouteChangeStart = () => {
+  NProgress.start();
+};
+
+Router.onRouteChangeComplete = () => {
+  NProgress.done();
+};
+
+Router.onRouteChangeError = () => {
+  NProgress.done();
+};
 
 export default function Footer() {
   return (
