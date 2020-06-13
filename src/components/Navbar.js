@@ -4,7 +4,6 @@ import styles from "./Navbar.module.scss";
 import Router from "next/router";
 import NProgress from "nprogress";
 
-// NProgress.configure({ speed: 1000 });
 Router.onRouteChangeStart = () => {
   NProgress.start();
 };
