@@ -1,0 +1,12 @@
+.ball {
+  z-index: 1100;
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
