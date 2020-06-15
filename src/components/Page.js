@@ -32,7 +32,7 @@ export default function Page(props) {
   return (
     <div onMouseMove={(event) => handleMouseMove(event)}>
       <Meta />
-      <div className={styles.navBackdrop}></div>
+      {/* <div className={styles.navBackdrop}></div> */}
       <div className={styles.wrapper}>
         {/* <Cursor x={cursor.x + "px"} y={cursor.y + "px"}></Cursor> */}
         <Navbar />
