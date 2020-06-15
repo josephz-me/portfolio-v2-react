@@ -9,18 +9,20 @@ export default function Page(props) {
   const [cursor, setCursor] = useState({ x: 0, y: 0 });
   const [ball, setBall] = useState({ x: 0, y: 0 });
 
-  const speed = 0.12;
+  const speed = 0.22;
 
   const handleMouseMove = (event) => {
     clearTimeout(ballToCursor());
     const { clientX: mouseX, clientY: mouseY } = event;
-    const distX = mouseX - ball.x;
-    const distY = mouseY - ball.y;
+    // const distX = mouseX - ball.x;
+    // const distY = mouseY - ball.y;
 
-    setBall({ x: ball.x + distX * speed, y: ball.y + distY * speed });
-    setCursor({ x: ball.x, y: ball.y });
+    // setBall({ x: ball.x + distX * speed, y: ball.y + distY * speed });
+    setCursor({ x: mouseX, y: mouseY });
 
-    setTimeout((ballToCursor(mouseX, mouseY), 1000));
+    // setTimeout(function () {
+    //   ballToCursor(mouseX, mouseY), 6000;
+    // });
   };
 
   const ballToCursor = (mouseX, mouseY) => {
