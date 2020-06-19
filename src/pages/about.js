@@ -19,8 +19,9 @@ export default function Home() {
           <p>
             I'm a designer exploring various forms of multimodal interaction. I
             believe in a future where our best experiences don't derive from the
-            computer screen but rather from the memories we create in the analog
-            world. Currently, I'm an undergraduate at Carnegie Mellon pursuing a{" "}
+            computer screen but rather from the moments we socially create in
+            the analog world. Currently, I'm an undergraduate at Carnegie Mellon
+            pursuing a{" "}
             <a
               target="blank"
               href="https://www.design.cmu.edu/content/bachelor-design"
