@@ -22,6 +22,11 @@ body {
   outline: 0;
 }
 
+::selection {
+  color: $background-color;
+  background: $font-black;
+}
+
 * {
   box-sizing: border-box;
 }

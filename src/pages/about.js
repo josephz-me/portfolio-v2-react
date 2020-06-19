@@ -17,9 +17,11 @@ export default function Home() {
         </div>
         <div className={styles.right}>
           <p>
-            I'm an interaction designer exploring various applications of
-            multimodal interfaces. Currently, I'm an undergraduate at Carnegie
-            Mellon pursuing a{" "}
+            I'm a designer exploring various forms of multimodal interaction.
+            Despite a passion for tech x design, I believe that we're meant to
+            experience our most meaningful moments away from the computer
+            screen. Currently, I'm an undergraduate at Carnegie Mellon pursuing
+            a{" "}
             <a
               target="blank"
               href="https://www.design.cmu.edu/content/bachelor-design"
@@ -31,13 +33,13 @@ export default function Home() {
             <br />
             <br />
             Previously, I was a UX Design Intern at Elevation Church in
-            Charlotte, North Carolina. This summer, I will be joining Apple's
-            Siri Team as an Interaction Design Intern in Cupertino, California.
+            Charlotte, North Carolina. This summer, I'll be joining Apple's Siri
+            Team as an Interaction Design Intern in Cupertino, California.
           </p>
         </div>
         <Spacer />
         <div className={styles.col1}>
-          <h4>Interested in —</h4>
+          <h4>Exploring —</h4>
           <a target="blank" href="https://www.youtube.com/watch?v=l3yHLikvjPU">
             Mini apartments
           </a>
@@ -49,19 +51,30 @@ export default function Home() {
             Essentialism
           </a>
           <br />
-          <a target="blank" href="photo.html">
-            Event photography
-          </a>
+          <p>Stock market</p>
         </div>
         <div className={styles.col2}>
-          <h4>Exploring —</h4>
-          <p>
-            Cinema4D
-            <br />
-            React
-            <br />
-            Visual Branding
-          </p>
+          <h4>Reading —</h4>
+          <a
+            target="blank"
+            href="https://www.amazon.com/Ruthless-Elimination-Hurry-Emotionally-Spiritually/dp/0525653090"
+          >
+            The Ruthless Elimination of Hurry
+          </a>
+          <br />
+          <a
+            target="blank"
+            href="https://www.amazon.com/Feck-Perfuction-Dangerous-Ideas-Business/dp/1452166366"
+          >
+            Feck Perfuction
+          </a>
+          <br />
+          <a
+            target="blank"
+            href="https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011/ref=sr_1_2?crid=126LZHE11LM5Y&dchild=1&keywords=metaphors+we+live+by&qid=1592536926&s=books&sprefix=metaphors+we+live+by%2Cstripbooks%2C200&sr=1-2"
+          >
+            Metaphors We Live By
+          </a>
         </div>
         <div className={styles.col3}>
           <h4>Building —</h4>
@@ -70,6 +83,7 @@ export default function Home() {
           </a>
         </div>
         <Spacer />
+
         <img src="/static/about/chairSpinning.jpeg"></img>
       </div>
     </main>
