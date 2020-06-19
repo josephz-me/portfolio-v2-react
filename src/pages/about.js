@@ -17,11 +17,10 @@ export default function Home() {
         </div>
         <div className={styles.right}>
           <p>
-            I'm a designer exploring various forms of multimodal interaction.
-            Despite a passion for tech x design, I believe that we're meant to
-            experience our most meaningful moments away from the computer
-            screen. Currently, I'm an undergraduate at Carnegie Mellon pursuing
-            a{" "}
+            I'm a designer exploring various forms of multimodal interaction. I
+            believe in a future where our best experiences don't derive from the
+            computer screen but rather from the memories we create in the analog
+            world. Currently, I'm an undergraduate at Carnegie Mellon pursuing a{" "}
             <a
               target="blank"
               href="https://www.design.cmu.edu/content/bachelor-design"
