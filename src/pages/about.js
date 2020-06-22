@@ -50,8 +50,6 @@ export default function Home() {
           >
             Essentialism
           </a>
-          <br />
-          <p>Stock market</p>
         </div>
         <div className={styles.col2}>
           <h4>Reading —</h4>
