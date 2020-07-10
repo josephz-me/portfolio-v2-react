@@ -21,6 +21,9 @@
     justify-self: end;
     grid-column: 3/7;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    font-family: $header-font;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0rem;
   }
 
   span:hover {
