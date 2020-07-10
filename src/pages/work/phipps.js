@@ -66,6 +66,7 @@ export default function Thinkspace() {
             height="100%"
             display="initial"
             frameBorder="0"
+            allow="fullscreen"
           />
         </div>
         <Divider />
@@ -243,6 +244,7 @@ export default function Thinkspace() {
             height="100%"
             display="initial"
             frameBorder="0"
+            allow="fullscreen"
           />
         </div>
         <Divider />

@@ -33,13 +33,10 @@ export default function Type() {
             <br />
             (1) The relaunch of <em>Elevation Connection Center</em>, a digital
             platform for people to get connected through small groups,
-            volunteering, and baptisms
+            volunteering, and baptisms.
             <br />
             <br />
-            (2) The initial design for <em>
-              Elevation's video streaming app
-            </em>{" "}
-            for Apple TV
+            (2) The initial design for <em>Elevation's Apple tvOS app</em>.
           </p>
         </div>
         <Spacer />

@@ -60,6 +60,7 @@ export default function Thinkspace() {
             height="100%"
             display="initial"
             frameBorder="0"
+            allow="fullscreen"
           />
         </div>
         <Divider />
@@ -213,6 +214,7 @@ export default function Thinkspace() {
             height="100%"
             display="initial"
             frameBorder="0"
+            allow="fullscreen"
           />
         </div>
         <small className={styles.left}>Iteration 2 — Particle-to-text</small>
@@ -225,6 +227,7 @@ export default function Thinkspace() {
             height="100%"
             display="initial"
             frameBorder="0"
+            allow="fullscreen"
           />
         </div>
         <small className={styles.left}>Iteration 3 — Voice-to-text</small>
@@ -237,6 +240,7 @@ export default function Thinkspace() {
             height="100%"
             display="initial"
             frameBorder="0"
+            allow="fullscreen"
           />
         </div>
 
@@ -250,6 +254,7 @@ export default function Thinkspace() {
             height="100%"
             display="initial"
             frameBorder="0"
+            allow="fullscreen"
           />
         </div>
         <small className={styles.left}>Integration into Physical Space</small>
@@ -262,6 +267,7 @@ export default function Thinkspace() {
             height="100%"
             display="initial"
             frameBorder="0"
+            allow="fullscreen"
           />
         </div>
         <Divider />
