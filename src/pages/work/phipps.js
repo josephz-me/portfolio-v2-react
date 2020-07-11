@@ -248,7 +248,7 @@ export default function Thinkspace() {
           />
         </div>
         <Divider />
-        <div className={styles.left}>Conclusion</div>
+        <h4 className={styles.left}>Conclusion</h4>
         <p className={styles.right}>
           In summary, my goal for this design challenge was to enhance the way
           people engage in the Phipps Conservatory through some XR medium. As

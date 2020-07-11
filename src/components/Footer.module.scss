@@ -35,6 +35,8 @@
 
 @media only screen and (max-width: 450px) {
   .footer {
+    font-size: $mobile-nav-font-size;
+
     a:hover {
       color: $font-black;
       // border-bottom: 1.5px solid $font-accent;
