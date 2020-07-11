@@ -31,12 +31,12 @@ export default function Type() {
             Carolina, I helped ship two primary projects:
             <br />
             <br />
-            (1) The relaunch of <em>Elevation Connection Center</em>, a digital
-            platform for people to get connected through small groups,
-            volunteering, and baptisms.
+            (1) The relaunch of Elevation Connection Center, a digital platform
+            for people to get connected through small groups, volunteering, and
+            baptisms.
             <br />
             <br />
-            (2) The initial design for <em>Elevation's Apple tvOS app</em>.
+            (2) The initial design for Elevation's Apple tvOS app.
           </p>
         </div>
         <Spacer />

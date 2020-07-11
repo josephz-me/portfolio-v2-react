@@ -33,7 +33,7 @@ export default function Thinkspace() {
         </div>
         <Spacer />
         <div className={styles.col1}>
-          <h4>Skills —</h4>
+          <em>Skills —</em>
           <p>
             p5.js
             <br />
@@ -43,11 +43,11 @@ export default function Thinkspace() {
           </p>
         </div>
         <div className={styles.col2}>
-          <h4>Timeframe —</h4>
+          <em>Timeframe —</em>
           <p>7 Weeks (Spring)</p>
         </div>
         <div className={styles.col3}>
-          <h4>Collaborators —</h4>
+          <em>Collaborators —</em>
           <p>None</p>
         </div>
         <Spacer />
