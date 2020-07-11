@@ -12,16 +12,15 @@
   background-color: $background-color;
   z-index: 2;
   font-family: $header-font;
-
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
+  letter-spacing: 0rem;
+  font-size: 24px;
 }
 
 .navbar__logo {
-  // font-size: 22px;
   grid-column: 1/4;
   text-transform: uppercase;
-  letter-spacing: -0.01rem;
 }
 
 .navbar a:hover {

@@ -19,6 +19,7 @@
   p {
     margin: 0 0 8px 0;
     transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+    font-size: 24px;
   }
 
   p:last-child {
@@ -69,11 +70,19 @@
 @media only screen and (max-width: 450px) {
   .cards__card {
     p {
-      font-size: 16px;
+      font-size: 20px;
     }
 
-    .cards__info p {
-      opacity: 1;
+    .cards__info {
+      grid-template-columns: 1fr;
+
+      p {
+        opacity: 1;
+      }
+
+      p:last-child {
+        display: none;
+      }
     }
   }
 }
