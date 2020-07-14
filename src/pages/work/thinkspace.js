@@ -33,7 +33,7 @@ export default function Thinkspace() {
         </div>
         <Spacer />
         <div className={styles.col1}>
-          <em>Skills —</em>
+          <h4>Skills —</h4>
           <p>
             p5.js
             <br />
@@ -43,11 +43,11 @@ export default function Thinkspace() {
           </p>
         </div>
         <div className={styles.col2}>
-          <em>Timeframe —</em>
+          <h4>Timeframe —</h4>
           <p>7 Weeks (Spring)</p>
         </div>
         <div className={styles.col3}>
-          <em>Collaborators —</em>
+          <h4>Collaborators —</h4>
           <p>None</p>
         </div>
         <Spacer />
@@ -109,28 +109,27 @@ export default function Thinkspace() {
         <div className={styles.right}>
           <p>
             The goal of Thinkspace is to enhance human-to-human conversation,
-            not human-to-computer conversation. Because of that,{" "}
-            <u>
-              Thinkspace is designed so that no verbal exchange occurs between
-              person & computer.
-            </u>
+            not human-to-computer conversation. Because of that, Thinkspace is
+            designed so that no verbal exchange occurs between person &
+            computer.
           </p>
           <br />
-          <em>System Wake & Sleep</em>
+          <br />
+          <h5>System Wake & Sleep</h5>
           <p>
             Person invocates through voice. Thinkspace is about conversation,
             therefore the first point of interaction should reflect that.
           </p>
           <br />
           <br />
-          <em>Role Selection</em>
+          <h5>Role Selection</h5>
           <p>
             Person chooses through mobile interface. It’s illogical for the
             system to project the various options given limited wall space.
           </p>
           <br />
           <br />
-          <em>How the system provides information </em>
+          <h5>How the system provides information </h5>
           <p>
             Only visual and audial cues, no spoken dialogue. The goal is to
             highlight the human-to-human conversation, therefore the assistant

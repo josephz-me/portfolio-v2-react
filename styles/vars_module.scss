@@ -2,17 +2,21 @@ $grid-gap: 18px;
 $nav-footer-padding: 10px;
 $background-color: rgb(240, 240, 240);
 
-$primary-font: courier-std, "space mono";
+$primary-font: "space mono";
 $header-font: "Helvetica Neue", neue-haas-unica;
 
 $font-accent: rgb(218, 45, 68);
 $font-black: rgba(0, 0, 0, 0.8);
 
+$em-font-size: 19px;
+$h5-font-size: 19px;
 $body-font-size: 18px;
 $caption-font-size: 14px;
 
+$body-letter-spacing: -0.01rem;
+
 $mobile-nav-font-size: 18px;
-$mobile-body-font-size: 17px;
+$mobile-body-font-size: 16px;
 $mobile-line-height: 1rem;
 
 $custom-cursor: url("/static/pointer.png") 64 50, pointer;
