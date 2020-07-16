@@ -222,15 +222,15 @@ export default function Type() {
             interface.
           </p>
           <Spacer />
+          <video
+            src="/static/work/elevation/eGroups_List.mp4"
+            muted
+            autoPlay
+            loop
+            playsInline
+            webkit-playsinline="true"
+          ></video>
         </div>
-        <video
-          src="/static/work/elevation/eGroups_List.mov"
-          muted
-          autoPlay
-          loop
-          playsInline
-          webkit-playsinline="true"
-        ></video>
 
         <Spacer />
         <img src="/static/work/elevation/eGroups_List.png"></img>
@@ -243,15 +243,15 @@ export default function Type() {
             via city or zip code.
           </p>
           <Spacer />
+          <video
+            src="/static/work/elevation/eGroups_Maps.mp4"
+            muted
+            autoPlay
+            loop
+            playsInline
+            webkit-playsinline="true"
+          ></video>
         </div>
-        <video
-          src="/static/work/elevation/eGroups_Maps.mov"
-          muted
-          autoPlay
-          loop
-          playsInline
-          webkit-playsinline="true"
-        ></video>
 
         <Spacer />
         <img src="/static/work/elevation/eGroups_Maps.png"></img>
