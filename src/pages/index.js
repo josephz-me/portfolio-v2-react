@@ -8,26 +8,10 @@ export default function Home() {
         <Card
           title="Thinkspace"
           description="CUI"
-          image="/static/work/thinkspace/coverVideo.mp4"
-          isImage={false}
-          // image={"/static/work/thinkspace/coverPhoto.jpeg"}
-          route="work/thinkspace"
-        />
-        <Card
-          title="Elevation Church"
-          description="UX Internship"
-          image="/static/work/elevation/cover_photo.jpg"
-          route="work/elevation"
+          // image="/static/work/thinkspace/coverVideo.mp4"
           isImage
-        />
-
-        <Card
-          title="Phipps Interaction"
-          description="Mixed Reality"
-          // image="/static/work/phipps/phippsCoverGrain.jpg"
-          image="/static/work/phipps/coverVideo.mp4"
-          route="work/phipps"
-          isImage={false}
+          image={"/static/work/thinkspace/coverPhoto.jpeg"}
+          route="work/thinkspace"
         />
         <Card
           title="Type Studies"
@@ -37,6 +21,22 @@ export default function Home() {
           route="work/type"
           isImage={false}
         />
+        <Card
+          title="Phipps Interaction"
+          description="Mixed Reality"
+          // image="/static/work/phipps/phippsCoverGrain.jpg"
+          image="/static/work/phipps/coverVideo.mp4"
+          route="work/phipps"
+          isImage={false}
+        />
+        <Card
+          title="Elevation Church"
+          description="UX Internship"
+          image="/static/work/elevation/cover_photo.jpg"
+          route="work/elevation"
+          isImage
+        />
+
         <Card
           title="Carnegie Kitchen"
           description="UX Design"
