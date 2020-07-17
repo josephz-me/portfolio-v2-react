@@ -22,19 +22,20 @@ export default function Home() {
           isImage={false}
         />
         <Card
+          title="Elevation Church"
+          description="UX Internship"
+          image="/static/work/elevation/cover_photo.jpg"
+          image="/static/work/elevation/coverVideo.mp4"
+          route="work/elevation"
+          isImage={false}
+        />
+        <Card
           title="Phipps Interaction"
           description="Mixed Reality"
           // image="/static/work/phipps/phippsCoverGrain.jpg"
           image="/static/work/phipps/coverVideo.mp4"
           route="work/phipps"
           isImage={false}
-        />
-        <Card
-          title="Elevation Church"
-          description="UX Internship"
-          image="/static/work/elevation/cover_photo.jpg"
-          route="work/elevation"
-          isImage
         />
 
         <Card
