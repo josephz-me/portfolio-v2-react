@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Skeleton from "react-loading-skeleton";
 import styles from "./Card.module.scss";
 
 export default function Card(props) {
@@ -8,15 +7,9 @@ export default function Card(props) {
     <Link href={`${props.route}`}>
       <a className={styles.cards__card}>
         {props.isImage ? (
-          <img src={props.image || <Skeleton />} />
+          <img src={props.image} />
         ) : (
-          <video
-            src={props.image || <Skeleton />}
-            muted
-            autoPlay
-            loop
-            playsInline
-          />
+          <video src={props.image} muted autoPlay loop playsInline />
         )}
         <div className={styles.cards__info}>
           <p>{props.title}</p>
