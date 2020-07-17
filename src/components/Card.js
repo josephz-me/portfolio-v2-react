@@ -6,7 +6,11 @@ export default function Card(props) {
   return (
     <Link href={`${props.route}`}>
       <a className={styles.cards__card}>
-        <img src={props.image} />
+        {props.isImage ? (
+          <img src={props.image} />
+        ) : (
+          <video src={props.image} muted autoPlay loop playsInline />
+        )}
         <div className={styles.cards__info}>
           <p>{props.title}</p>
           <p>{props.description}</p>
