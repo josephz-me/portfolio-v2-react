@@ -1,0 +1,29 @@
+@import "../../styles/vars_module.scss";
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: $landing-card-height-full;
+
+  img,
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: visibility 0ms ease 400ms;
+  }
+
+  img {
+    filter: blur(10px);
+    transform: scale(1.1);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    height: $landing-card-height-mobile;
+  }
+}

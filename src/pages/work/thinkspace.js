@@ -168,7 +168,7 @@ export default function Thinkspace() {
             muted
             autoPlay
             loop
-            playsinline
+            playsInline
             webkit-playsinline="true"
           ></video>
         </div>

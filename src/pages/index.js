@@ -16,26 +16,27 @@ export default function Home() {
         <Card
           title="Type Studies"
           description="Graphic Design"
-          // image="/static/work/type/poster-nf.jpg"
-          image="/static/work/type/coverVideo.mp4"
+          image="/static/work/type/poster-nf.jpg"
+          // video="/static/work/type/coverVideo.mp4"
           route="work/type"
-          isImage={false}
+          isImage={true}
         />
         <Card
           title="Elevation Church"
           description="UX Internship"
-          image="/static/work/elevation/cover_photo.jpg"
-          image="/static/work/elevation/coverVideo.mp4"
+          // image="/static/work/elevation/cover_photo.jpg"
+          video="/static/work/elevation/coverVideo.mp4"
+          videoThumb="/static/work/elevation/coverVideoThumbnail.png"
           route="work/elevation"
           isImage={false}
         />
         <Card
           title="Phipps Interaction"
           description="Mixed Reality"
-          // image="/static/work/phipps/phippsCoverGrain.jpg"
-          image="/static/work/phipps/coverVideo.mp4"
+          image="/static/work/phipps/phippsCoverGrain.jpg"
+          // video="/static/work/phipps/coverVideo.mp4"
           route="work/phipps"
-          isImage={false}
+          isImage={true}
         />
 
         <Card
