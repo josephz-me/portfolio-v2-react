@@ -23,7 +23,7 @@ export default function Card(props) {
                 autoPlay
                 loop
                 playsInline
-                webkit-playsinline="true"
+                webkit-playsinline={true}
               />
             ) || (
               <SkeletonTheme
