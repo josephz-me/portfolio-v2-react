@@ -21,7 +21,7 @@ export default function Footer() {
     <nav className={styles.navbar}>
       <span className={styles.navbar__logo}>
         <Link href="/index">
-          <a>Joseph Z</a>
+          <a>Joseph</a>
         </Link>
       </span>
       <div className={styles.navbar__right}>
