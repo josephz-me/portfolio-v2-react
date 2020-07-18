@@ -1,5 +1,9 @@
 @import "../../styles/vars_module.scss";
 
+.skeleton {
+  border-radius: 0px;
+  opacity: 10;
+}
 .cards__card {
   transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
 
