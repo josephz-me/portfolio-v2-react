@@ -6,23 +6,39 @@ export default function VideoCard(props) {
   console.log(isVideoLoaded);
   const onLoadedData = () => {
     setIsVideoLoaded(true);
-    console.log("done");
   };
 
   return (
     <div className={styles.container}>
-      {isVideoLoaded ? (
-        <video
-          autoPlay
-          playsInline
-          loop
-          muted
-          src={props.video}
-          onLoadedData={() => setIsVideoLoaded(true)}
-        />
-      ) : (
-        <img src={props.videoThumb} />
-      )}
+      <video
+        autoPlay
+        playsInline
+        loop
+        muted
+        src={props.video}
+        onLoadedData={onLoadedData}
+        style={{ opacity: isVideoLoaded ? 1 : 0 }}
+      />
+      <img
+        src={props.videoThumb}
+        alt="thumbnail video"
+        style={{ opacity: isVideoLoaded ? 0 : 1 }}
+      />
     </div>
   );
 }
+
+//   <div className={styles.container}>
+//   {isVideoLoaded ? (
+// 	<video
+// 	  autoPlay
+// 	  playsInline
+// 	  loop
+// 	  muted
+// 	  src={props.video}
+// 	  onLoadedData={() => setIsVideoLoaded(true)}
+// 	/>
+//   ) : (
+// 	<img src={props.videoThumb} onLoad={onLoadedData} />
+//   )}
+// </div>
