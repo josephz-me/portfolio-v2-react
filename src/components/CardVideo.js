@@ -14,7 +14,7 @@ export default function VideoCard(props) {
       <img
         src={props.videoThumb}
         alt="thumbnail video"
-        style={{ opacity: isVideoLoaded ? 0 : 0 }}
+        style={{ opacity: isVideoLoaded ? 0 : 1 }}
       />
 
       <video
@@ -24,7 +24,7 @@ export default function VideoCard(props) {
         muted
         src={props.video}
         onLoadedData={() => setIsVideoLoaded(true)}
-        style={{ opacity: isVideoLoaded ? 1 : 1 }}
+        style={{ opacity: isVideoLoaded ? 1 : 0 }}
       />
     </div>
   );

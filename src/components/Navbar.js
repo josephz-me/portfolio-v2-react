@@ -28,9 +28,9 @@ export default function Footer() {
         <Link href="/about">
           <a>About</a>
         </Link>
-        {/* <Link href="/static/resume-zhang.pdf">
-          <a target="blank">Resume</a>
-        </Link> */}
+        <a href="/static/resume-zhang.pdf" target="blank">
+          Resume
+        </a>
       </div>
     </nav>
   );
