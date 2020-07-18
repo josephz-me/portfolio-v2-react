@@ -10,19 +10,19 @@ export default function VideoCard(props) {
 
   return (
     <div className={styles.container}>
+      <img
+        src={props.videoThumb}
+        alt="thumbnail video"
+        style={{ display: isVideoLoaded ? "none" : "block" }}
+      />
       <video
         autoPlay
         playsInline
         loop
         muted
         src={props.video}
-        onLoadedData={onLoadedData}
-        style={{ opacity: isVideoLoaded ? 1 : 0 }}
-      />
-      <img
-        src={props.videoThumb}
-        alt="thumbnail video"
-        style={{ opacity: isVideoLoaded ? 0 : 1 }}
+        onCanPlay={onLoadedData}
+        style={{ display: isVideoLoaded ? "block" : "none" }}
       />
     </div>
   );
