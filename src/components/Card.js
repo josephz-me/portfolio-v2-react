@@ -16,7 +16,7 @@ export default function Card(props) {
                 <Skeleton height={"30vw"} className="skeleton" />
               </SkeletonTheme>
             )
-          : <video src={props.image} muted autoPlay loop playsInline /> || (
+          : <video src={props.image} muted autoPlay loop playsinline /> || (
               <SkeletonTheme
                 color="rgb(220,220,220,10)"
                 highlightColor="rgb(230,230,230,10)"

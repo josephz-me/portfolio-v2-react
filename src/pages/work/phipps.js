@@ -180,7 +180,7 @@ export default function Thinkspace() {
             muted
             autoPlay
             loop
-            playsInline
+            playsinline
             webkit-playsinline="true"
           ></video>
           <SpacerRight />
@@ -198,7 +198,7 @@ export default function Thinkspace() {
             muted
             autoPlay
             loop
-            playsInline
+            playsinline
             webkit-playsinline="true"
           ></video>
           <SpacerRight />
@@ -215,7 +215,7 @@ export default function Thinkspace() {
             muted
             autoPlay
             loop
-            playsInline
+            playsinline
             webkit-playsinline="true"
           ></video>
           <Spacer />
@@ -224,7 +224,7 @@ export default function Thinkspace() {
             muted
             autoPlay
             loop
-            playsInline
+            playsinline
             webkit-playsinline="true"
           ></video>
         </div>

@@ -227,7 +227,7 @@ export default function Type() {
             muted
             autoPlay
             loop
-            playsInline
+            playsinline
             webkit-playsinline="true"
           ></video>
         </div>
@@ -248,7 +248,7 @@ export default function Type() {
             muted
             autoPlay
             loop
-            playsInline
+            playsinline
             webkit-playsinline="true"
           ></video>
         </div>
@@ -364,7 +364,7 @@ export default function Type() {
           muted
           autoPlay
           loop
-          playsInline
+          playsinline
           webkit-playsinline="true"
         ></video>
         <Spacer />
@@ -373,7 +373,7 @@ export default function Type() {
           muted
           autoPlay
           loop
-          playsInline
+          playsinline
           webkit-playsinline="true"
         ></video>
         <Spacer />
