@@ -36,7 +36,7 @@ export default function Home() {
           description="Mixed Reality"
           // image="/static/work/phipps/phippsCoverGrain.jpg"
           video="/static/work/phipps/coverVideo.mp4"
-          videoThumb="/static/work/phipps /coverVideoThumbnail.jpeg"
+          videoThumb="/static/work/phipps/coverVideoThumbnail.jpeg"
           route="work/phipps"
           isImage={false}
         />
