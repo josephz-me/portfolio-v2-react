@@ -82,7 +82,7 @@ export default function Home() {
         </div>
         <Spacer />
 
-        <img src="/static/about/chairSpinning.jpeg"></img>
+        <img src="/static/about/grass2.jpg"></img>
       </div>
     </main>
   );
