@@ -3,7 +3,6 @@ import styles from "./CardVideo.module.scss";
 
 export default function VideoCard(props) {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-  console.log(isVideoLoaded);
   const onLoadedData = () => {
     setIsVideoLoaded(true);
   };
@@ -27,18 +26,3 @@ export default function VideoCard(props) {
     </div>
   );
 }
-
-//   <div className={styles.container}>
-//   {isVideoLoaded ? (
-// 	<video
-// 	  autoPlay
-// 	  playsInline
-// 	  loop
-// 	  muted
-// 	  src={props.video}
-// 	  onLoadedData={() => setIsVideoLoaded(true)}
-// 	/>
-//   ) : (
-// 	<img src={props.videoThumb} onLoad={onLoadedData} />
-//   )}
-// </div>

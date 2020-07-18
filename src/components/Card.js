@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import styles from "./Card.module.scss";
 import CardVideo from "./CardVideo";
 
