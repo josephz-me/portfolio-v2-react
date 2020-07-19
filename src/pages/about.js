@@ -32,9 +32,9 @@ export default function Home() {
             Environments.
             <br />
             <br />
-            Previously, I was a UX Design Intern at Elevation Church in
-            Charlotte, North Carolina. This summer, I'll be joining Apple's Siri
-            Team as an Interaction Design Intern in Cupertino, California.
+            Previously ~ UX Design Intern @ Elevation Church
+            <br />
+            Currently ~ Interaction Design Intern @ Apple
           </p>
         </div>
         <Spacer />
@@ -75,9 +75,13 @@ export default function Home() {
           </a>
         </div>
         <div className={styles.col3}>
-          <h4>Building —</h4>
+          <h4>Cultivating —</h4>
           <a target="blank" href="https://www.covaid.co">
             Covaid.co
+          </a>
+          <br />
+          <a target="blank" href="https://www.tedxcmu.org/">
+            TEDxCMU
           </a>
         </div>
         <Spacer />
