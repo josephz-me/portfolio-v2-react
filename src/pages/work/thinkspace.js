@@ -169,7 +169,6 @@ export default function Thinkspace() {
             autoPlay
             loop
             playsInline
-            webkit-playsinline="true"
           ></video>
         </div>
         <Divider />

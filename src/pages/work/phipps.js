@@ -181,7 +181,6 @@ export default function Thinkspace() {
             autoPlay
             loop
             playsInline
-            webkit-playsinline="true"
           ></video>
           <SpacerRight />
 
@@ -199,7 +198,6 @@ export default function Thinkspace() {
             autoPlay
             loop
             playsInline
-            webkit-playsinline="true"
           ></video>
           <SpacerRight />
           <em>AR Prototyping: Terrain Projection</em>
@@ -216,7 +214,6 @@ export default function Thinkspace() {
             autoPlay
             loop
             playsInline
-            webkit-playsinline="true"
           ></video>
           <Spacer />
           <video
@@ -225,7 +222,6 @@ export default function Thinkspace() {
             autoPlay
             loop
             playsInline
-            webkit-playsinline="true"
           ></video>
         </div>
 

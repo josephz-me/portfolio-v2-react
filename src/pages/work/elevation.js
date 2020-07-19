@@ -228,7 +228,6 @@ export default function Type() {
             autoPlay
             loop
             playsInline
-            webkit-playsinline="true"
           ></video>
         </div>
 
@@ -249,7 +248,6 @@ export default function Type() {
             autoPlay
             loop
             playsInline
-            webkit-playsinline="true"
           ></video>
         </div>
 
@@ -365,7 +363,6 @@ export default function Type() {
           autoPlay
           loop
           playsinline
-          webkit-playsinline="true"
         ></video>
         <Spacer />
         <video
@@ -374,7 +371,6 @@ export default function Type() {
           autoPlay
           loop
           playsinline
-          webkit-playsinline="true"
         ></video>
         <Spacer />
         <img src="/static/work/elevation/tvOS_hifi_g_white.png"></img>
