@@ -6,7 +6,7 @@
   grid-template-columns: repeat(6, 1fr);
   grid-gap: $grid-gap;
   padding: $nav-footer-padding 0;
-  border-top: 1.5px solid black;
+  border-top: 2px solid $font-black;
   margin-top: 20px;
   font-family: $header-font;
   font-weight: 500;
