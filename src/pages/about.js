@@ -75,7 +75,7 @@ export default function Home() {
           </a>
         </div>
         <div className={styles.col3}>
-          <h4>Cultivating —</h4>
+          <h4>Building —</h4>
           <a target="blank" href="https://www.covaid.co">
             Covaid.co
           </a>
