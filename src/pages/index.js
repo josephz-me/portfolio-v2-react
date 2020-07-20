@@ -8,8 +8,9 @@ export default function Home() {
         <Card
           title="Thinkspace"
           description="CUI"
-          // image="/static/work/thinkspace/coverVideo.mp4"
-          isImage
+          video="/static/work/thinkspace/coverVideo.mp4"
+          videoThumb="/static/work/thinkspace/coverVideoThumbnail.jpeg"
+          isImage={false}
           image={"/static/work/thinkspace/coverPhoto.jpeg"}
           route="work/thinkspace"
         />
@@ -41,13 +42,13 @@ export default function Home() {
           isImage={false}
         />
 
-        <Card
+        {/* <Card
           title="Carnegie Kitchen"
           description="UX Design"
           image="/static/work/nutritionalLiteracy/01_projectCover.jpg"
           route="work/nutrition"
           isImage
-        />
+        /> */}
       </div>
     </main>
   );
