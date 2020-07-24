@@ -12,7 +12,7 @@ function Meta() {
       <meta
         key="description"
         name="description"
-        content="Joseph is an interaction designer exploring how multimodal interactions can alleviate our dependency on attention-heavy technologies."
+        content="Currently exploring various applications of multimodal interaction."
       />
       <title key="title">Joseph Z</title>
       <link
