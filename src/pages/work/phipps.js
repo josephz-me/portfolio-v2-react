@@ -28,9 +28,9 @@ export default function Thinkspace() {
             novel technologies, such as AR/VR, comes a steep learning curve that
             often serves as a point of hesitance for ubiquitous adoption. <br />
             <br />
-            In this project, I explore how XR experiences can be navigated
-            through traditiional forms of interaction and if this hybrid
-            behavior can enrich the way individuals absorb new information.
+            This project explores how XR experiences can be engaged with through
+            traditional forms of interaction and if this hybrid behavior can
+            enrich the way individuals absorb new information.
           </p>
         </div>
         <Spacer />
