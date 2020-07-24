@@ -70,14 +70,14 @@ export default function Thinkspace() {
         <Divider />
         <h4 className={styles.left}>Problem —</h4>
         <p className={styles.right}>
-          For the sake of context, this project focused on the Phipps Botanical
-          Garden as a use case. Like many exhibition space, most of the plant
-          life at Phipps is curated and installed in an inevitable,
-          showcase-like manner. Plants are taken out of their contextual
-          environments and as a result, visitors are unable to gain a holistic
-          understanding of the exhibited plant's role in its natural ecosystem.
-          Given these concerns, I framed my problems through these two
-          questions:
+          This exploration can be benefitial to contexts such as the Phipps
+          Conversatory, a botanical garden in Pittsburgh. Like many exhibition
+          spaces, most of the plant life at Phipps is curated and installed in
+          an inevitable, showcase-like manner. Plants are taken out of their
+          contextual environments and as a result, visitors are unable to gain a
+          holistic understanding of the exhibited plant's role in its natural
+          ecosystem. Given these concerns, I framed my problems through these
+          two questions:
           <br />
           <br />
           <em>
