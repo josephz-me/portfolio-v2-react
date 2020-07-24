@@ -23,16 +23,14 @@ export default function Thinkspace() {
         </div>
         <div className={styles.right}>
           <p>
-            Phipps Conservatory is a botanical garden and historical landmark in
-            Pittsburgh, Pennsylvania. The conservatory showcases hundreds of
-            plants from around the world, including Cuba, Canada, and the
-            States. Currently, visitors can explore the space by themselves or
-            on guided group tours. <br />
+            As various forms of interaction evolve, so should the way we
+            visually and cognitively engage with information. However, one major
+            hurdle with these new technologies is the daunting learning curve,
+            especially in emerging feels of AR/VR. <br />
             <br />
-            As technology and design mediums advance, so should the way we
-            visually and cognitively engage with information. In this project, I
-            explored how XR interactions can enrich the way individuals both
-            experience and learn about natural ecosystems.
+            In this project, I explored how XR experiences can be navigated from
+            a familiar form of interaction and if this hybrid behavior can
+            enrich the way individuals visualize new information.
           </p>
         </div>
         <Spacer />
@@ -72,12 +70,14 @@ export default function Thinkspace() {
         <Divider />
         <h4 className={styles.left}>Problem —</h4>
         <p className={styles.right}>
-          The majority of plant life at the Phipps Conservatory is curated and
-          installed in an inevitable, showcase-like manner. Plants are taken out
-          of their contextual environments and as a result, visitors are unable
-          to gain a holistic understanding of the exhibited plant's role in its
-          natural ecosystem. Given these concerns, I framed my problems through
-          these two questions:
+          For the sake of context, this project focused on the Phipps Botanical
+          Garden as a use case. Like many exhibition space, most of the plant
+          life at Phipps is curated and installed in an inevitable,
+          showcase-like manner. Plants are taken out of their contextual
+          environments and as a result, visitors are unable to gain a holistic
+          understanding of the exhibited plant's role in its natural ecosystem.
+          Given these concerns, I framed my problems through these two
+          questions:
           <br />
           <br />
           <em>
@@ -95,23 +95,20 @@ export default function Thinkspace() {
         <h4 className={styles.left}>Solution —</h4>
         <p className={styles.right}>
           A tabletop AR terrain that adapts depending on the user's placement of
-          physical action trophies. This design solution seeks to help visitors
-          visualize an exhibited plant in its broader natural habitat, as well
-          as the role the Anthropocene plays in these wildlife environments.
+          physical action trophies. This design solution seeks to utilize
+          existing intraction paradigms to help visitors visualize an exhibited
+          plant in its broader natural habitat, as well as the role the
+          Anthropocene plays within that specific environment.
         </p>
         <Divider />
 
         <h4 className={styles.left}>Form of Interaction —</h4>
         <div className={styles.right}>
           <p>
-            To go more in-depth about the physical aspect of this interaction,
-            every AR tabletop within Phipps will have a “Start” trophy, that is
-            the trophy that begins the entire simulation. When the user moves
-            the trophy to certain spots on the table, the terrain will react
-            accordingly depending on what type of action trophy it is. In this
-            case, I have included cattle herding and oil fracking. The goal of
-            this is for users to understand how human actions can completely
-            alter the way a natural ecosystem continues to exist.
+            Every AR tabletop within Phipps consists of a “Start” trophy, the
+            trigger that begins every simulation. When the user moves the trophy
+            to certain spots on the table, the CG projected terrain reacts
+            accordingly depending on what type of action trophy is used.
           </p>
         </div>
         <Spacer />
@@ -121,10 +118,10 @@ export default function Thinkspace() {
 
         <p className={styles.right}>
           Depending on which action trophies the user decides to move,
-          appropriate AR signs appear with relevant information to that action.
-          Since the one interaction's primary goals is to evoke action, each
-          information sign leads to an additional call to action that the user
-          can consider integrating into his or her life.
+          appropriate signs appear with relevant information to that action.
+          Since one of the interaction's primary goals is to visualize impacts
+          of certain actions, each information sign leads to an additional
+          call-to-action for the user to digest.
         </p>
 
         <Spacer />
@@ -135,13 +132,7 @@ export default function Thinkspace() {
           <p>
             when beginning my research, I visited Phipps to not only better
             understand the exhibition material itself, but also the types of
-            people that visited. From my time there, I realized that I could
-            separate my target users into primary and secondary users depending
-            on factors such as their duration in Pittsburgh, age, and intent for
-            visiting. The primary users are everyday, kids, college students,
-            and adults. The secondary users would be people thinking of
-            investing in Phipps - this includes sponsors, donors, and
-            individuals interested in holding a venue at Phipps.
+            people that visited.
           </p>
           <br />
           <Spacer />
@@ -155,12 +146,6 @@ export default function Thinkspace() {
           satisfy both my primary and secondary users, I would need to create a
           highly intuitive experience capable of engaging, entertaining, and
           educating various groups of individuals that all have diverse motives.
-          <br />
-          <br />
-          Throughout this process, I framed my thinking around how I can best
-          educate visitor about a plant's natural environment. Doodles turned
-          into ideas and eventually I saw myself begin conceptualizing a hybrid
-          tabletop experience.
         </p>
         <Spacer />
         <img src="/static/work/phipps/ideation_sketches.jpg"></img>
@@ -228,9 +213,10 @@ export default function Thinkspace() {
         <Divider />
         <h4 className={styles.left}>Final Prototype —</h4>
         <p className={styles.right}>
-          At the end of this process, I developed this speculative concept video
-          that visualizes how an individual might engage with this interaction.
+          At the end of this process, I developed a design proposal that
+          visualizes how an individual might engage with this interaction.
         </p>
+        <Spacer />
         <div className={styles.iFrameBig}>
           <Iframe
             url="https://player.vimeo.com/video/378143894"
@@ -246,20 +232,12 @@ export default function Thinkspace() {
         <Divider />
         <h4 className={styles.left}>Conclusion</h4>
         <p className={styles.right}>
-          In summary, my goal for this design challenge was to enhance the way
-          people engage in the Phipps Conservatory through some XR medium. As
-          someone who just recently began prototyping in spatial environments,
-          this project taught me a lot about the affordances of augmented
-          reality tools and the limitations of how certain ideas and be
-          communicated. I’ve come to realize that these restraints are quite
-          logical sense I’m conceptualizing future-based interactions with
-          available tools in the present.
-          <br />
-          <br />
-          In the near future, I would love to explore prototyping tools such as
-          Unity and Blender; I believe that the combination of these two tools
-          will elevate my ideas to a new level, allowing me to solve bigger
-          scaled issues in the man-made world.
+          As technology gets smarter, so should the way we undestand its new
+          affordances. This project projects an ideal future where technology
+          becomes secondary in the way we interact with each other and the
+          physical world. I don't think we're meant eventually to live our lives
+          in a VR headset... but I do believe that these technologes will open
+          doors to new ways we perceive and understand our surroundings.
         </p>
       </div>
     </main>

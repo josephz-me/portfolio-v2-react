@@ -5,6 +5,13 @@ export default function Home() {
   return (
     <main>
       <div className={styles.cards}>
+        {/* <Card
+          title="Covaid"
+          description="UX Design"
+          image="/static/work/covaid/coverPhoto.png"
+          route="work/covaid"
+          isImage
+        /> */}
         <Card
           title="Thinkspace"
           description="CUI"
@@ -41,14 +48,6 @@ export default function Home() {
           route="work/phipps"
           isImage={false}
         />
-
-        {/* <Card
-          title="Carnegie Kitchen"
-          description="UX Design"
-          image="/static/work/nutritionalLiteracy/01_projectCover.jpg"
-          route="work/nutrition"
-          isImage
-        /> */}
       </div>
     </main>
   );

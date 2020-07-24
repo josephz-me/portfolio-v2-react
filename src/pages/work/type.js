@@ -20,7 +20,7 @@ export default function Type() {
 
         <p className={styles.right}>
           A collection of broad typographical explorations throughout the past
-          few months, ranging from personal experiments to class-guided prompts.
+          couple years. Ranges from personal experiments to academic work.
         </p>
         <Spacer />
         <img src="/static/work/type/poster-hurry.jpg"></img>

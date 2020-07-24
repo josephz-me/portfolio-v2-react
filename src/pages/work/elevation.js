@@ -362,7 +362,7 @@ export default function Type() {
           muted
           autoPlay
           loop
-          playsinline
+          playsInline
         ></video>
         <Spacer />
         <video
@@ -370,7 +370,7 @@ export default function Type() {
           muted
           autoPlay
           loop
-          playsinline
+          playsInline
         ></video>
         <Spacer />
         <img src="/static/work/elevation/tvOS_hifi_g_white.png"></img>
