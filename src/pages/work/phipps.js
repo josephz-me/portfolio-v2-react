@@ -24,13 +24,13 @@ export default function Thinkspace() {
         <div className={styles.right}>
           <p>
             As various forms of interaction evolve, so should the way we
-            visually and cognitively engage with information. However, one major
-            hurdle with these new technologies is the daunting learning curve,
-            especially in emerging feels of AR/VR. <br />
+            visually and cognitively engage with information. However, with many
+            novel technologies, such as AR/VR, comes a steep learning curve that
+            often serves as a point of hesitance for ubiquitous adoption. <br />
             <br />
-            In this project, I explored how XR experiences can be navigated from
-            a familiar form of interaction and if this hybrid behavior can
-            enrich the way individuals visualize new information.
+            In this project, I explore how XR experiences can be navigated
+            through traditiional forms of interaction and if this hybrid
+            behavior can enrich the way individuals absorb new information.
           </p>
         </div>
         <Spacer />
