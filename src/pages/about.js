@@ -17,14 +17,13 @@ export default function Home() {
         </div>
         <div className={styles.right}>
           <p>
-            B. 2000, Guangdong, CHN. Raised in San Jose, CA.
+            Born in Guangdong, CHN. Cultivated in the Bay Area, CA.
             <br />
             <br />
             I'm a designer exploring various applications of multimodal
-            interaction. I believe in a future where our most valued experiences
-            don't derive from the computer screen but rather from moments in the
-            analog world. Currently, I'm an undergraduate at Carnegie Mellon
-            pursuing a{" "}
+            interaction. I believe in a future where our source of elation,
+            purpose, and productivity no longer depends on the digital screen.
+            Currently, I'm an undergraduate at Carnegie Mellon pursuing a{" "}
             <a
               target="blank"
               href="https://www.design.cmu.edu/content/bachelor-design"
