@@ -17,7 +17,7 @@ export default function Home() {
         </div>
         <div className={styles.right}>
           <p>
-            Born in Guangdong, CHN. Cultivated in the Bay Area, CA.
+            B. 2000 — Guangdong, CHN. Cultivated in Silicon Valley, CA.
             <br />
             <br />
             I'm a designer exploring various applications of multimodal
