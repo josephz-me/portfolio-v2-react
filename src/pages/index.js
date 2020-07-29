@@ -5,13 +5,6 @@ export default function Home() {
   return (
     <main>
       <div className={styles.cards}>
-        {/* <Card
-          title="Covaid"
-          description="UX Design"
-          image="/static/work/covaid/coverPhoto.png"
-          route="work/covaid"
-          isImage
-        /> */}
         <Card
           title="Thinkspace"
           description="CUI"
@@ -20,6 +13,13 @@ export default function Home() {
           isImage={false}
           image={"/static/work/thinkspace/coverPhoto.jpeg"}
           route="work/thinkspace"
+        />
+        <Card
+          title="Covaid"
+          description="Product Design"
+          image="/static/work/covaid/coverPhoto.png"
+          route="work/covaid"
+          isImage
         />
         <Card
           title="Type Studies"
@@ -41,7 +41,7 @@ export default function Home() {
         />
         <Card
           title="Phipps Interaction"
-          description="Mixed Reality"
+          description="XR"
           // image="/static/work/phipps/phippsCoverGrain.jpg"
           video="/static/work/phipps/coverVideo.mp4"
           videoThumb="/static/work/phipps/coverVideoThumbnail.jpeg"

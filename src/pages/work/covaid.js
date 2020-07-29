@@ -19,6 +19,7 @@ export default function Covaid() {
         </div>
 
         <div className={styles.right}>
+          <h5>— PAGE IN PROGRESS —</h5>
           <p>
             In March 2020, I joined two recent college graduates on building
             Covaid, a volunteer-requester matching platform that connects
@@ -61,9 +62,10 @@ export default function Covaid() {
           </p>
         </div>
         <Spacer />
+
         <img src="/static/work/covaid/coverPhoto.png"></img>
         <Divider />
-        <h4 className={styles.left}>Covaid.co —</h4>
+        <h4 className={styles.left}>Covaid —</h4>
         <div className={styles.right}>
           <p>
             The Covaid platform consists of both a web platform and an iOS app
@@ -71,8 +73,8 @@ export default function Covaid() {
             application.
           </p>
           <Spacer />
-          <a target="blank" href="https://connect.elevationchurch.org/">
-            <img src="/static/work/elevation/cc_mockup.png"></img>
+          <a target="blank" href="https://covaid.co">
+            <img src="/static/work/covaid/covaid-landing.png"></img>
           </a>
         </div>
 
@@ -86,17 +88,20 @@ export default function Covaid() {
             inhumane spreadsheets to manually keep track of volunteers and their
             current tasks.
           </p>
-          <Spacer />
+          <Spacer />{" "}
         </div>
-        <img
-          src="/static/work/covaid/spreadsheets.png"
-          style={{ filter: "blur(1px)" }}
-        ></img>
-        <small className={styles.right}>
+        <small className={styles.left}>
           Blurred for condidentiality purposes
         </small>
+        <div className={styles.right}>
+          <img
+            src="/static/work/covaid/spreadsheets.png"
+            style={{ filter: "blur(1px)" }}
+          ></img>
+        </div>
+
         <Divider />
-        <h4 className={styles.left}>Goal —</h4>
+        <h4 className={styles.left}>Interface Snapshots —</h4>
         <div className={styles.right}>
           <p>We built three primary interfaces for Covaid:</p>
           <br />
@@ -109,57 +114,20 @@ export default function Covaid() {
             (3) Request flow
           </em>
         </div>
-        <Divider />
-        <h4 className={styles.left}>Organization Dashboard —</h4>
-        <div className={styles.right}>
-          <p>
-            The primary purpose of the organization dashboard is to allow admins
-            to view and delegate all incoming/in-progress requests. Each request
-            is categorized into one of three categories: unmatched, in-progress,
-            or complete. To move a card from unmatched to in-progress, an
-            organization admin would notify a volunteer to pick up a request.
-          </p>
-        </div>
         <Spacer />
-        <img src="/static/work/elevation/user_types.png"></img>
-        <Divider />
-        <h4 className={styles.left}>Volunteer Dashboard —</h4>
-        <div className={styles.right}>
-          <p>
-            The current sign-up process asks for an email and name as
-            verification points for returning users. However as mentioned
-            before, both new and returning users are then often routed to a
-            highly problematic identity confirmation page with a list of
-            individuals with similar names. <br />
-            <br />
-            By mapping out Elevation CC's current flow, we realized that 80% of
-            the processes were the same for eTeams, Baptisms, and eGroups. This
-            meant that the bulk of the issues in all three came from a lack of
-            clarity and efficiency in these concentrated series of actions.
-          </p>
-        </div>
-        <Spacer />
-        <img src="/static/work/elevation/flowcharts.png"></img>
-        <Divider />
-        <h4 className={styles.left}>Request Flow —</h4>
-        <div className={styles.right}>
-          <h5>eGroups - Search by List</h5>
-
-          <p>
-            We redesigned these pages with the goal of bringing more personality
-            and light-heartedness to the process. This prompted us to introduce
-            colored navigation, leader profiles, and an expandable map
-            interface.
-          </p>
-          <Spacer />
-          <video
-            src="/static/work/elevation/eGroups_List.mp4"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
-        </div>
+        <img src="/static/work/covaid/images/images.001.jpeg"></img>
+        <img src="/static/work/covaid/images/images.002.jpeg"></img>
+        <img src="/static/work/covaid/images/images.003.jpeg"></img>
+        <img src="/static/work/covaid/images/images.004.jpeg"></img>
+        <img src="/static/work/covaid/images/images.005.jpeg"></img>
+        <img src="/static/work/covaid/images/images.006.jpeg"></img>
+        <img src="/static/work/covaid/images/images.007.jpeg"></img>
+        <img src="/static/work/covaid/images/images.008.jpeg"></img>
+        <img src="/static/work/covaid/images/images.009.jpeg"></img>
+        <img src="/static/work/covaid/images/images.010.jpeg"></img>
+        <img src="/static/work/covaid/images/images.011.jpeg"></img>
+        <img src="/static/work/covaid/images/images.012.jpeg"></img>
+        <img src="/static/work/covaid/images/images.013.jpeg"></img>
       </div>
     </main>
   );

@@ -36,6 +36,14 @@ export default function Home() {
             Previously ~ UX Design Intern @ Elevation Church
             <br />
             Currently ~ Interaction Design Intern @ Apple
+            <br />
+            Soon ~{" "}
+            <a
+              target="blank"
+              href="https://www.nasa.gov/feature/former-intern-uses-nasa-knowledge-to-lead-robotic-moon-rover"
+            >
+              Iris Rover @ CMU x Astrobotics
+            </a>
           </p>
         </div>
         <Spacer />
