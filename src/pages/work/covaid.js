@@ -15,7 +15,7 @@ export default function Covaid() {
       <div className={styles.project}>
         <div className={styles.title}>
           <h1>Covaid</h1>
-          <h2>UX Design</h2>
+          <h2>Product Design</h2>
         </div>
 
         <div className={styles.right}>
