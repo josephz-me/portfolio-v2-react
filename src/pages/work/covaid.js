@@ -91,7 +91,7 @@ export default function Covaid() {
           <Spacer />{" "}
         </div>
         <small className={styles.left}>
-          Blurred for condidentiality purposes
+          Blurred for confidentiality purposes
         </small>
         <div className={styles.right}>
           <img
