@@ -11,7 +11,7 @@ export default function Home() {
           video="/static/work/apple/coverVideo.mp4"
           videoThumb="/static/work/thinkspace/coverVideoThumbnail.jpeg"
           image={"/static/work/apple/cover_logo.jpg"}
-          isImage={true}
+          isImage={false}
           route="work/thinkspace"
         /> */}
         <Card

@@ -21,9 +21,8 @@ export default function Home() {
             <br />
             <br />
             I'm a designer exploring various applications of multimodal
-            interaction. As a creative, I aspire to cultivate communities
-            oriented around co-creation. Currently, I'm an undergraduate at
-            Carnegie Mellon pursuing a{" "}
+            interaction. Currently, I'm an undergraduate at Carnegie Mellon
+            pursuing a{" "}
             <a
               target="blank"
               href="https://www.design.cmu.edu/content/bachelor-design"
