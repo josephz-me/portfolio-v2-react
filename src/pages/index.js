@@ -5,6 +5,15 @@ export default function Home() {
   return (
     <main>
       <div className={styles.cards}>
+        {/* <Card
+          title="Apple"
+          description="Design Internship"
+          video="/static/work/apple/coverVideo.mp4"
+          videoThumb="/static/work/thinkspace/coverVideoThumbnail.jpeg"
+          image={"/static/work/apple/cover_logo.jpg"}
+          isImage={true}
+          route="work/thinkspace"
+        /> */}
         <Card
           title="Thinkspace"
           description="CUI"
@@ -14,6 +23,7 @@ export default function Home() {
           image={"/static/work/thinkspace/coverPhoto.jpeg"}
           route="work/thinkspace"
         />
+
         <Card
           title="Covaid"
           description="Product Design"
@@ -22,21 +32,21 @@ export default function Home() {
           isImage
         />
         <Card
-          title="Type Studies"
-          description="Graphic Design"
-          // image="/static/work/type/poster-nf.jpg"
-          video="/static/work/type/coverVideo.mp4"
-          videoThumb="/static/work/type/coverVideoThumbnail.jpeg"
-          route="work/type"
-          isImage={false}
-        />
-        <Card
           title="Elevation Church"
           description="UX Internship"
           // image="/static/work/elevation/cover_photo.jpg"
           video="/static/work/elevation/coverVideo.mp4"
           videoThumb="/static/work/elevation/coverVideoThumbnail.jpeg"
           route="work/elevation"
+          isImage={false}
+        />
+        <Card
+          title="Type Studies"
+          description="Graphic Design"
+          // image="/static/work/type/poster-nf.jpg"
+          video="/static/work/type/coverVideo.mp4"
+          videoThumb="/static/work/type/coverVideoThumbnail.jpeg"
+          route="work/type"
           isImage={false}
         />
         <Card

@@ -17,12 +17,13 @@ export default function Home() {
         </div>
         <div className={styles.right}>
           <p>
-            B. 2000 — Guangdong, CHN. Cultivated in Silicon Valley, CA.
+            B. 2000 ~ Guangdong, CHN. Raised in Cupertino, CA.
             <br />
             <br />
             I'm a designer exploring various applications of multimodal
-            interaction. Currently, I'm an undergraduate at Carnegie Mellon
-            pursuing a{" "}
+            interaction. As a creative, I aspire to cultivate communities
+            oriented around co-creation. Currently, I'm an undergraduate at
+            Carnegie Mellon pursuing a{" "}
             <a
               target="blank"
               href="https://www.design.cmu.edu/content/bachelor-design"
@@ -33,11 +34,11 @@ export default function Home() {
             Environments.
             <br />
             <br />
-            Previously ~ UX Design Intern @ Elevation Church
+            Previously: UX Design Intern @ Elevation Church
             <br />
-            Currently ~ Interaction Design Intern @ Apple
+            Currently: Interaction Design Intern @ Apple
             <br />
-            Soon ~{" "}
+            Soon:{" "}
             <a
               target="blank"
               href="https://www.nasa.gov/feature/former-intern-uses-nasa-knowledge-to-lead-robotic-moon-rover"
