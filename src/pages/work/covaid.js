@@ -4,7 +4,7 @@ import React from "react";
 import styles from "./work.module.scss";
 import Spacer from "../../components/Spacer.js";
 import Divider from "../../components/Divider.js";
-import Iframe from "react-iframe";
+import LazyLoad from "react-lazyload";
 
 export default function Covaid() {
   return (
@@ -118,13 +118,15 @@ export default function Covaid() {
             Currently, aid is only provided in certain cities.
           </p>
           <Spacer />
-          <video
-            src="/static/work/covaid/create-request.mp4"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
+          <LazyLoad offset={100}>
+            <video
+              src="/static/work/covaid/create-request.mp4"
+              muted
+              autoPlay
+              loop
+              playsInline
+            ></video>
+          </LazyLoad>
         </div>
         <Divider />
         <h4 className={styles.left}>Organization Dashboard —</h4>
@@ -135,13 +137,15 @@ export default function Covaid() {
             on the task.
           </p>
           <Spacer />
-          <video
-            src="/static/work/covaid/org-match-request.mp4"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
+          <LazyLoad offset={100}>
+            <video
+              src="/static/work/covaid/org-match-request.mp4"
+              muted
+              autoPlay
+              loop
+              playsInline
+            ></video>
+          </LazyLoad>
         </div>
         <div className={styles.right}>
           <p>
@@ -150,13 +154,15 @@ export default function Covaid() {
             from.{" "}
           </p>
           <Spacer />
-          <video
-            src="/static/work/covaid/org-excel-sync.mp4"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
+          <LazyLoad offset={100}>
+            <video
+              src="/static/work/covaid/org-excel-sync.mp4"
+              muted
+              autoPlay
+              loop
+              playsInline
+            ></video>
+          </LazyLoad>
         </div>
 
         <div className={styles.right}>
@@ -166,13 +172,15 @@ export default function Covaid() {
             contact information.
           </p>
           <Spacer />
-          <video
-            src="/static/work/covaid/org-view-volunteers.mp4"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
+          <LazyLoad offset={100}>
+            <video
+              src="/static/work/covaid/org-view-volunteers.mp4"
+              muted
+              autoPlay
+              loop
+              playsInline
+            ></video>
+          </LazyLoad>
         </div>
         <div className={styles.right}>
           <Spacer />
@@ -181,13 +189,15 @@ export default function Covaid() {
             purpose. We call these Beacons.
           </p>
           <Spacer />
-          <video
-            src="/static/work/covaid/org-create-beacon.mp4"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
+          <LazyLoad offset={100}>
+            <video
+              src="/static/work/covaid/org-create-beacon.mp4"
+              muted
+              autoPlay
+              loop
+              playsInline
+            ></video>
+          </LazyLoad>
         </div>
         <Divider />
         <h4 className={styles.left}>Volunteer Dashboard —</h4>
@@ -197,13 +207,15 @@ export default function Covaid() {
             messages sent by their organization.
           </p>
           <Spacer />
-          <video
-            src="/static/work/covaid/volunteer-view-beacon.mp4"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
+          <LazyLoad offset={100}>
+            <video
+              src="/static/work/covaid/volunteer-view-beacon.mp4"
+              muted
+              autoPlay
+              loop
+              playsInline
+            ></video>
+          </LazyLoad>
         </div>
         <small className={styles.left}>Handling Requests (volunteer)</small>
         <div className={styles.right}>
@@ -213,13 +225,15 @@ export default function Covaid() {
             This is where volunteers accept or complete requests.
           </p>
           <Spacer />
-          <video
-            src="/static/work/covaid/volunteer-requests.mp4"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
+          <LazyLoad offset={100}>
+            <video
+              src="/static/work/covaid/volunteer-requests.mp4"
+              muted
+              autoPlay
+              loop
+              playsInline
+            ></video>
+          </LazyLoad>
         </div>
         <div className={styles.right}>
           <Spacer />
@@ -229,13 +243,15 @@ export default function Covaid() {
             from matching you to new requests.
           </p>
           <Spacer />
-          <video
-            src="/static/work/covaid/volunteer-change-active.mp4"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
+          <LazyLoad offset={100}>
+            <video
+              src="/static/work/covaid/volunteer-change-active.mp4"
+              muted
+              autoPlay
+              loop
+              playsInline
+            ></video>
+          </LazyLoad>
         </div>
         <Divider />
         <h4 className={styles.left}>Mobile App</h4>
