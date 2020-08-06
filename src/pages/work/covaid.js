@@ -114,8 +114,8 @@ export default function Covaid() {
 
         <div className={styles.right}>
           <p>
-            To get help, an individual simply needs to fill out a 3 step form.
-            Currently, aid is only provided in certain cities.
+            To get help, an individual simply needs to fill out a three step
+            form. Currently, aid is only provided in certain cities.
           </p>
           <Spacer />
           <LazyLoad offset={600}>
