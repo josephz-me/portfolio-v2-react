@@ -123,6 +123,7 @@ export default function Covaid() {
               src="/static/work/covaid/create-request.mp4"
               muted
               autoPlay
+              preload="metadata"
               loop
               playsInline
             ></video>
@@ -142,6 +143,7 @@ export default function Covaid() {
               src="/static/work/covaid/org-match-request.mp4"
               muted
               autoPlay
+              preload="metadata"
               loop
               playsInline
             ></video>
@@ -159,6 +161,7 @@ export default function Covaid() {
               src="/static/work/covaid/org-excel-sync.mp4"
               muted
               autoPlay
+              preload="metadata"
               loop
               playsInline
             ></video>
@@ -177,6 +180,7 @@ export default function Covaid() {
               src="/static/work/covaid/org-view-volunteers.mp4"
               muted
               autoPlay
+              preload="metadata"
               loop
               playsInline
             ></video>
@@ -194,6 +198,7 @@ export default function Covaid() {
               src="/static/work/covaid/org-create-beacon.mp4"
               muted
               autoPlay
+              preload="metadata"
               loop
               playsInline
             ></video>
@@ -212,6 +217,7 @@ export default function Covaid() {
               src="/static/work/covaid/volunteer-view-beacon.mp4"
               muted
               autoPlay
+              preload="metadata"
               loop
               playsInline
             ></video>
@@ -230,6 +236,7 @@ export default function Covaid() {
               src="/static/work/covaid/volunteer-requests.mp4"
               muted
               autoPlay
+              preload="metadata"
               loop
               playsInline
             ></video>
@@ -248,6 +255,7 @@ export default function Covaid() {
               src="/static/work/covaid/volunteer-change-active.mp4"
               muted
               autoPlay
+              preload="metadata"
               loop
               playsInline
             ></video>
