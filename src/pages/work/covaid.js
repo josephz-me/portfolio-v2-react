@@ -118,7 +118,7 @@ export default function Covaid() {
             Currently, aid is only provided in certain cities.
           </p>
           <Spacer />
-          <LazyLoad offset={100}>
+          <LazyLoad offset={600}>
             <video
               src="/static/work/covaid/create-request.mp4"
               muted
@@ -137,7 +137,7 @@ export default function Covaid() {
             on the task.
           </p>
           <Spacer />
-          <LazyLoad offset={100}>
+          <LazyLoad offset={600}>
             <video
               src="/static/work/covaid/org-match-request.mp4"
               muted
@@ -154,7 +154,7 @@ export default function Covaid() {
             from.{" "}
           </p>
           <Spacer />
-          <LazyLoad offset={100}>
+          <LazyLoad offset={600}>
             <video
               src="/static/work/covaid/org-excel-sync.mp4"
               muted
@@ -172,7 +172,7 @@ export default function Covaid() {
             contact information.
           </p>
           <Spacer />
-          <LazyLoad offset={100}>
+          <LazyLoad offset={600}>
             <video
               src="/static/work/covaid/org-view-volunteers.mp4"
               muted
@@ -189,7 +189,7 @@ export default function Covaid() {
             purpose. We call these Beacons.
           </p>
           <Spacer />
-          <LazyLoad offset={100}>
+          <LazyLoad offset={600}>
             <video
               src="/static/work/covaid/org-create-beacon.mp4"
               muted
@@ -207,7 +207,7 @@ export default function Covaid() {
             messages sent by their organization.
           </p>
           <Spacer />
-          <LazyLoad offset={100}>
+          <LazyLoad offset={600}>
             <video
               src="/static/work/covaid/volunteer-view-beacon.mp4"
               muted
@@ -225,7 +225,7 @@ export default function Covaid() {
             This is where volunteers accept or complete requests.
           </p>
           <Spacer />
-          <LazyLoad offset={100}>
+          <LazyLoad offset={600}>
             <video
               src="/static/work/covaid/volunteer-requests.mp4"
               muted
@@ -243,7 +243,7 @@ export default function Covaid() {
             from matching you to new requests.
           </p>
           <Spacer />
-          <LazyLoad offset={100}>
+          <LazyLoad offset={600}>
             <video
               src="/static/work/covaid/volunteer-change-active.mp4"
               muted
