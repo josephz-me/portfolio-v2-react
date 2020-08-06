@@ -122,9 +122,10 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/create-request.mp4"
               muted
-              autoPlay
-              preload="metadata"
-              loop
+              controls
+              // autoPlay
+              // preload="metadata"
+              // loop
               playsInline
             ></video>
           </LazyLoad>
@@ -142,9 +143,10 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/org-match-request.mp4"
               muted
-              autoPlay
-              preload="metadata"
-              loop
+              controls
+              // autoPlay
+              // preload="metadata"
+              // loop
               playsInline
             ></video>
           </LazyLoad>
@@ -160,9 +162,10 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/org-excel-sync.mp4"
               muted
-              autoPlay
-              preload="metadata"
-              loop
+              controls
+              // autoPlay
+              // preload="metadata"
+              // loop
               playsInline
             ></video>
           </LazyLoad>
@@ -179,9 +182,10 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/org-view-volunteers.mp4"
               muted
-              autoPlay
-              preload="metadata"
-              loop
+              controls
+              // autoPlay
+              // preload="metadata"
+              // loop
               playsInline
             ></video>
           </LazyLoad>
@@ -197,9 +201,10 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/org-create-beacon.mp4"
               muted
-              autoPlay
-              preload="metadata"
-              loop
+              controls
+              // autoPlay
+              // preload="metadata"
+              // loop
               playsInline
             ></video>
           </LazyLoad>
@@ -216,9 +221,10 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/volunteer-view-beacon.mp4"
               muted
-              autoPlay
-              preload="metadata"
-              loop
+              controls
+              // autoPlay
+              // preload="metadata"
+              // loop
               playsInline
             ></video>
           </LazyLoad>
@@ -235,9 +241,10 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/volunteer-requests.mp4"
               muted
-              autoPlay
-              preload="metadata"
-              loop
+              controls
+              // autoPlay
+              // preload="metadata"
+              // loop
               playsInline
             ></video>
           </LazyLoad>
@@ -254,9 +261,10 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/volunteer-change-active.mp4"
               muted
-              autoPlay
-              preload="metadata"
-              loop
+              controls
+              // autoPlay
+              // preload="metadata"
+              // loop
               playsInline
             ></video>
           </LazyLoad>
