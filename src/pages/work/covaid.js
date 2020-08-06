@@ -122,10 +122,9 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/create-request.mp4"
               muted
-              controls
-              // autoPlay
-              // preload="metadata"
-              // loop
+              autoPlay
+              preload="metadata"
+              loop
               playsInline
             ></video>
           </LazyLoad>
@@ -143,15 +142,13 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/org-match-request.mp4"
               muted
-              controls
-              // autoPlay
-              // preload="metadata"
-              // loop
+              autoPlay
+              preload="metadata"
+              loop
               playsInline
             ></video>
           </LazyLoad>
-        </div>
-        <div className={styles.right}>
+          <Spacer />
           <p>
             To alleviate the transitional friction organizations may face,
             Covaid syncs with Excel, the platform most organizations are coming
@@ -162,35 +159,12 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/org-excel-sync.mp4"
               muted
-              controls
-              // autoPlay
-              // preload="metadata"
-              // loop
+              autoPlay
+              preload="metadata"
+              loop
               playsInline
             ></video>
           </LazyLoad>
-        </div>
-
-        <div className={styles.right}>
-          <Spacer />
-          <p>
-            Organizations are also able to view all its volunteers and their
-            contact information.
-          </p>
-          <Spacer />
-          <LazyLoad offset={600}>
-            <video
-              src="/static/work/covaid/org-view-volunteers.mp4"
-              muted
-              controls
-              // autoPlay
-              // preload="metadata"
-              // loop
-              playsInline
-            ></video>
-          </LazyLoad>
-        </div>
-        <div className={styles.right}>
           <Spacer />
           <p>
             Organizations are able to send mass notifications for any desired
@@ -201,37 +175,17 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/org-create-beacon.mp4"
               muted
-              controls
-              // autoPlay
-              // preload="metadata"
-              // loop
+              autoPlay
+              preload="metadata"
+              loop
               playsInline
             ></video>
           </LazyLoad>
         </div>
         <Divider />
+
         <h4 className={styles.left}>Volunteer Dashboard —</h4>
         <div className={styles.right}>
-          <p>
-            Volunteers have a notification panel which displays any Beacon
-            messages sent by their organization.
-          </p>
-          <Spacer />
-          <LazyLoad offset={600}>
-            <video
-              src="/static/work/covaid/volunteer-view-beacon.mp4"
-              muted
-              controls
-              // autoPlay
-              // preload="metadata"
-              // loop
-              playsInline
-            ></video>
-          </LazyLoad>
-        </div>
-        <small className={styles.left}>Handling Requests (volunteer)</small>
-        <div className={styles.right}>
-          <Spacer />
           <p>
             There are three states of requests: new, in-progress, and complete.
             This is where volunteers accept or complete requests.
@@ -241,13 +195,19 @@ export default function Covaid() {
             <video
               src="/static/work/covaid/volunteer-requests.mp4"
               muted
-              controls
-              // autoPlay
-              // preload="metadata"
-              // loop
+              autoPlay
+              preload="metadata"
+              loop
               playsInline
             ></video>
           </LazyLoad>
+          <Spacer />
+          <p>
+            Volunteers have a notification panel which displays any Beacon
+            messages sent by their organization.
+          </p>
+          <Spacer />
+          <img src="/static/work/covaid/volunteer-view-beacon.jpg"></img>
         </div>
         <div className={styles.right}>
           <Spacer />
@@ -257,18 +217,12 @@ export default function Covaid() {
             from matching you to new requests.
           </p>
           <Spacer />
-          <LazyLoad offset={600}>
-            <video
-              src="/static/work/covaid/volunteer-change-active.mp4"
-              muted
-              controls
-              // autoPlay
-              // preload="metadata"
-              // loop
-              playsInline
-            ></video>
-          </LazyLoad>
         </div>
+
+        <img
+          className={styles.left}
+          src="/static/work/covaid/volunteer-change-active.png"
+        ></img>
         <Divider />
         <h4 className={styles.left}>Mobile App</h4>
         <p className={styles.right}>
