@@ -10,9 +10,9 @@ export default function Home() {
           description="Design Internship"
           video="/static/work/apple/coverVideo.mp4"
           videoThumb="/static/work/thinkspace/coverVideoThumbnail.jpeg"
-          image={"/static/work/apple/cover_logo.jpg"}
-          isImage={false}
-          route="work/thinkspace"
+          image={"/static/work/apple/cover_logo.jpeg"}
+          isImage={true}
+          route="index"
         /> */}
         <Card
           title="Thinkspace"
