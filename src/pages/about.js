@@ -44,11 +44,12 @@ export default function Home() {
             <a href="https://elevationchurch.org/" target="blank">
               Elevation Church
             </a>{" "}
-            (2019). This Fall, he will be designing generative interfaces with{" "}
+            (2019).
+            {/* This Fall, he will be designing generative interfaces with{" "}
             <a target="blank" href="https://www.brain.ai/">
               Brain Technologies
             </a>{" "}
-            (2020-21).
+            (2020-21). */}
           </p>
         </div>
         <Spacer />
