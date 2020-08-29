@@ -5,15 +5,15 @@ export default function Home() {
   return (
     <main>
       <div className={styles.cards}>
-        {/* <Card
+        <Card
           title="Apple"
           description="Design Internship"
           video="/static/work/apple/coverVideo.mp4"
-          videoThumb="/static/work/thinkspace/coverVideoThumbnail.jpeg"
+          videoThumb="/static/work/apple/coverVideoThumbnail.jpeg"
           image={"/static/work/apple/cover_logo.jpeg"}
-          isImage={true}
-          route="index"
-        /> */}
+          isImage={false}
+          route="work/apple"
+        />
         <Card
           title="Thinkspace"
           description="CUI"

@@ -79,7 +79,7 @@ export default function Type() {
         </div>
         <div className={styles.col2}>
           <h4>Timeframe —</h4>
-          <p>12 Weeks</p>
+          <p>12 Weeks (Summer 2019)</p>
         </div>
         <div className={styles.col3}>
           <h4>Collaborators —</h4>

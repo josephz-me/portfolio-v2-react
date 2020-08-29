@@ -13,37 +13,42 @@ export default function Home() {
       <div className={styles.project}>
         <div className={styles.title}>
           <h1>About</h1>
-          <i></i>
         </div>
         <div className={styles.right}>
           <p>
             B. 2000 ~ Guangdong, CHN. Raised in Cupertino, CA.
             <br />
             <br />
-            I'm a designer exploring various applications of multimodal
-            interaction. Currently, I'm an undergraduate at Carnegie Mellon
-            pursuing a{" "}
+            Joseph is a designer exploring system-level interaction patterns and
+            multimodal experiences. He believes in developing a more humane way
+            for people to engage with tech and screen-based interfaces.
+            Currently, he is an undergraduate at the Carnegie Mellon{" "}
             <a
               target="blank"
               href="https://www.design.cmu.edu/content/bachelor-design"
             >
-              Bachelor of Design
+              School of Design
             </a>{" "}
-            with additional minors in Human-Computer Interaction and Intelligent
-            Environments.
-            <br />
-            <br />
-            Previously: UX Design Intern @ Elevation Church
-            <br />
-            Currently: Interaction Design Intern @ Apple
-            <br />
-            Soon:{" "}
-            <a
-              target="blank"
-              href="https://www.nasa.gov/feature/former-intern-uses-nasa-knowledge-to-lead-robotic-moon-rover"
-            >
-              Iris Rover @ CMU x Astrobotics
+            and{" "}
+            <a target="blank" href="https://www.hcii.cmu.edu/">
+              Human-Computer Interaction Institute
             </a>
+            .
+            <br />
+            <br />
+            Previously, Joseph was an Interaction Design Intern @{" "}
+            <a href="https://www.apple.com/siri/" target="blank">
+              Apple
+            </a>{" "}
+            (2020) and UX Design Intern @{" "}
+            <a href="https://elevationchurch.org/" target="blank">
+              Elevation Church
+            </a>{" "}
+            (2019). This Fall, he will be designing generative interfaces with{" "}
+            <a target="blank" href="https://www.brain.ai/">
+              Brain Technologies
+            </a>{" "}
+            (2020-21).
           </p>
         </div>
         <Spacer />
@@ -84,13 +89,19 @@ export default function Home() {
           </a>
         </div>
         <div className={styles.col3}>
-          <h4>Building —</h4>
-          <a target="blank" href="https://www.covaid.co">
-            Covaid.co
+          <h4>Listening —</h4>
+          <a
+            target="blank"
+            href="https://open.spotify.com/show/2sC9z2mEDRuluR4hjbV1Gb?si=0XlZGJWsQpyY6PdzMy6Zow"
+          >
+            Commoners Communion
           </a>
           <br />
-          <a target="blank" href="https://www.tedxcmu.org/">
-            TEDxCMU
+          <a
+            target="blank"
+            href="https://open.spotify.com/show/1VXcH8QHkjRcTCEd88U3ti?si=tuxyWJmyTfCllhoncwuw5g"
+          >
+            TED Talks Daily
           </a>
         </div>
         <Spacer />

@@ -44,7 +44,7 @@ export default function Thinkspace() {
         </div>
         <div className={styles.col2}>
           <h4>Timeframe —</h4>
-          <p>7 Weeks (Spring)</p>
+          <p>7 Weeks (Spring 2020)</p>
         </div>
         <div className={styles.col3}>
           <h4>Collaborators —</h4>

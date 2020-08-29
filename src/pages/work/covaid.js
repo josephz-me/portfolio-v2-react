@@ -49,6 +49,7 @@ export default function Covaid() {
         <div className={styles.col2}>
           <h4>Timeframe —</h4>
           <p>6 Months</p>
+          <p>(Spring/Summer 2020)</p>
         </div>
         <div className={styles.col3}>
           <h4>Collaborators —</h4>
