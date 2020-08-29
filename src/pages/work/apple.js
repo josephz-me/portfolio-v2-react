@@ -46,14 +46,7 @@ export default function Apple() {
         </div>
 
         <Spacer />
-        <video
-          src="/static/work/apple/coverVideo.mp4"
-          muted
-          autoPlay
-          preload="metadata"
-          loop
-          playsInline
-        ></video>
+        <img src="/static/work/apple/cover_logo.jpeg"></img>
       </div>
     </main>
   );
