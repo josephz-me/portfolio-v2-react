@@ -28,7 +28,7 @@ export default function Footer() {
         <Link href="/about">
           <a>About</a>
         </Link>
-        <a href="/static/resume-zhang.pdf" target="blank">
+        <a href="/static/resume-zhang2.pdf" target="blank">
           Resume
         </a>
       </div>
