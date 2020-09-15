@@ -1,7 +1,7 @@
 @import "../../styles/vars_module.scss";
 
 .cards__card {
-  transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
 
   img,
   video {
@@ -19,7 +19,8 @@
 
   p {
     margin: 0 0 8px 0;
-    transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition: opacity 0.2s cubic-bezier(0.2, 0.8, 0.2, 1),
+      transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
     font-size: 22px;
   }
 
