@@ -20,15 +20,3 @@ export default function Card(props) {
     </Link>
   );
 }
-
-{
-  /* <video
-            src={props.image}
-            muted
-            autoPlay
-            loop
-            playsInline
-            onLoadedData={setLoaded}
-            // webkit-playsinline
-          /> */
-}
